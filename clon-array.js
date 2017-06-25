@@ -9,16 +9,6 @@ function clonArrayInNewArray(arr) {
 	return newArray;
 }
 
-function printNewClonArr() {
-	var arrayOld = [ [ 2, 3, 4 ], [ 1, 9, 7 ], [ 8, 8, 5 ] ];
-	var printArr = clonArrayInNewArray(arrayOld);
-	for (var i = 0; i < printArr.length; i++) {
-		document.write(printArr[i] + "<br>");
-	}
-}
-printNewClonArr();  
-
-// testing a code
 
 function testCopyArray() {
 	var inputArray = [ [ 2, 3, 4 ], [ 1, 9, 7 ], [ 8, 8, 5 ] ];
@@ -30,4 +20,4 @@ function testCopyArray() {
 		document.write("function is working bad");
 	}
 }
-// testCopyArray();
+ testCopyArray();
