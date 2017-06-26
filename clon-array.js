@@ -9,7 +9,6 @@ function clonArrayInNewArray(arr) {
 	return newArray;
 }
 
-
 function testCopyArray() {
 	var inputArray = [ [ 2, 3, 4 ], [ 1, 9, 7 ], [ 8, 8, 5 ] ];
 	var expectedArr = [ [ 2, 3, 4 ], [ 1, 9, 7 ], [ 8, 8, 5 ] ];
